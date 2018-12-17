@@ -1,0 +1,351 @@
+@import url();
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+font-family: 'Pacifico', cursive;
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Imagen*/
+section#banner{
+    width: 100%;
+    background-image: url(../img/im2.jpg); /*link de imagen*/
+    background-attachment: contain;
+  /*  background-size:  cover;*/
+    background-position: center;
+    background-repeat: no-repeat; /*no repetir imagen*/
+    
+}
+
+#logo{
+    
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    list-style: none; /*quitar puntos a listas*/
+    font-size: 15px;
+   
+}
+
+#logo>a{
+    color:white;
+    text-decoration: none;  
+}
+
+#logo>a:hover {
+    opacity: 0.7;
+}
+/*Navegador*/
+
+header{
+    position: fixed;
+   /* padding: 50px;*/
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    -webkit-transition: background-color .5s;
+    z-index: 1;
+}
+
+.nav{
+    margin-top: 5px;
+    display:table;
+    background-color: transparent;
+}
+
+.navbar{
+    /*display: table;*/
+    margin:auto;
+    margin-top:15px;
+    background-color:transparent;
+    border: transparent;
+    position: block;
+    height: 40px;
+    -webkit-transition: margin-left .5s;
+
+}
+
+.navbar-right{
+    margin:0px;
+
+}
+
+.navbar1{
+    display: table;
+    margin:auto;
+    margin-top:5px;
+    background-color:transparent;
+    border: transparent;
+    position: block;
+    color: #fff;
+
+    
+  
+    height: 40px;
+    -webkit-transition: margin-left .5s;
+
+}
+.log1{
+    background-color:transparent;
+    border:none;
+}
+
+
+
+.navbar-collaps{
+    display: table;
+    margin:auto;
+    margin-top:5px; 
+    background-color:transparent;
+    border: transparent;
+    position: block;
+
+}
+
+#foto1{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Conoceme*/
+
+.conoceme{
+    padding-top: 20px;
+}
+
+.centro1{
+    display: block;
+    
+    list-style: none; /*quitar puntos a listas*/
+    font-size: 15px;
+
+}
+
+
+.centro{
+    display: block;
+    float: none;
+    text-align: none;
+
+}
+
+#contenedorSlider{
+    z-index: 0;
+}
+
+/*Contanco*/
+
+.datos{
+    color:rgb(16, 15, 15);
+    text-decoration: none;
+
+}
+
+.mb-30{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#log{
+    width: 50px; height: 50px;
+    padding-bottom: 1px;
+}
+
+.formulario{
+padding-bottom: 20px;
+}
+
+/*listado me*/
+.centro{
+    text-align: center;
+}
+
+
+/*
+
+.navbar-brand{
+    position: block;
+    margin-left: 50px;
+}
+
+
+.nav-menu{
+    display: table; 
+    margin: auto;
+    height: 10px;
+    margin:top;
+    -webkit-transition: margin-left .5s;
+    
+}
+
+.collapse{
+    text-align: center;
+}*/
+
+
+ul{
+    display: block;
+    float: left; /*izquierda*/
+    list-style: none; /*quitar puntos a listas*/
+    font-size: 15px;
+}
+
+
+ul li{
+    float: left;
+    
+   
+}
+
+
+ul a{
+    color:white;
+    text-decoration: none;
+}
+
+img#logo{
+    float: left;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 150px;
+    -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
+   
+}
+
+#body{
+  /*  width: 100%;*/
+   /* height: 500px;*/
+}
+/*Div en blanco*/
+
+#blanco{
+    padding: 10px;
+}
+.paddsection{
+    position:;
+}
+/* Css contenedores*/
+
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+  /*  min-height: 100px;*/
+    background: #dbdfe5;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.demo-contentd{
+    padding: 1px;
+    font-size: 18px;
+/*    min-height: 200px;*/
+/*   background: #dbdfe5;*/
+    margin-bottom: 1px;
+    text-align: center;
+}
+.demo-contentds{
+    padding: 15px;
+    font-size: 18px;
+ /* min-height: 200px;*/
+  /*  background: #dbdfe5;*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Fin Css Contenedores*/
+
+/*Banner*/
+.typed{
+    z-index: 1;  
+    text-align: center;
+}
+/* texto imagen*/
+h1{
+    text-align: center;
+    color: rgb(2, 2, 2);
+    padding-left: 15px; 
+}
+#textoEntrada1{
+    text-align: center;
+}
+
+#tituloAuto{
+    margin:0;
+}
+
+
+/*Fin del Banner*/
+
+/*Botones redes*/
+
+
+
+#banner.header-content #botonesRedes .list-social li i {
+
+    color: #fff;
+    font-size: 15px;
+    margin-top:50px;
+}
+
+#banner .header-content div ul li .fa{
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+#tituloAuto{
+    text-align: left;
+    padding-top: 25px;
+    color: white;
+    padding-top: 300px; 
+    font-size:25px;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top:10px;
+    border-top: 20px;
+   
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+ul li .fa {
+    float: left;
+    margin: 0px;
+    padding: 2px;
+  
+}
+
+.contact-details{
+    padding-left: 10px;
+}
+ul .datos{
+
+    float: none;
+}
+
+
+
+
+footer{
+    background-color: rgb(60,60,60);
+    text-align: center; 
+    padding: 20px;
+ 
+}
+
+footer #foot .list-social .fa{
+    float: none;
+    background-color: rgb(60,60,60);
+}
+
+.nada{
+    padding: 10px;
+}
